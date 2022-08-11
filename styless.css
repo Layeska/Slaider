@@ -36,11 +36,8 @@ body {
     right: 10px;
 }
 
-.menos:hover {
-    background: gold;
-    border-radius: 50%;
-    width: 45px;
-    height: 40px;
+.menos:active, .mas:active {
+    opacity: 0.5;
 }
 
 .mas {
