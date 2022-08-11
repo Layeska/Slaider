@@ -1,0 +1,88 @@
+
+body {
+    background: #689fa955;
+}
+
+/*@ Container principal */
+
+.container {
+    width: 840px;
+    height: 425px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+/*@ container de la imagen */
+
+.imagen {
+    width: 600px;
+    height: 320px;
+    margin: auto;
+    overflow: visible;
+}
+
+/*@ Botones */
+
+.menos, .mas {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    width: fit-content;
+    height: 45px;
+}
+
+.menos {
+    right: 10px;
+}
+
+.menos:hover {
+    background: gold;
+    border-radius: 50%;
+    width: 45px;
+    height: 40px;
+}
+
+.mas {
+    left: 10px;
+    
+}
+
+/*@ Lista de botones bajos*/
+
+.lista {
+    width: 705px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.lista ul {
+    margin: auto;
+    text-align: center;
+    width: 300px;
+}
+
+.lista li {
+    list-style: none;
+    width: 30px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    margin: auto;
+    border: solid black 1px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+.lista li:hover {
+    background: #d9d9d9;
+    
+}
+
+.lista li:active {
+    
+    border-radius: 67px;
+    background: #d9d9d9;
+    box-shadow:  25px 25px 50px #8f8f8f;
+}
